@@ -1,0 +1,111 @@
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #f4f6f9;
+}
+
+.wrap-login100 {
+    width: 100%;
+    background: #f4f6f9;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+}
+.login100-form {
+    width: 560px;
+    min-height: 100vh;
+    display: block;
+    background-color: #f4f6f9;
+    padding: 173px 55px 55px;
+}
+
+@media (max-width: 900px) {
+    .login100-form {
+        padding: 66px 50px 50px;
+       
+    }
+}
+
+element.style {
+    background-image: url("../../public/fondo.jpg");
+}
+.login100-more {
+    width: calc(100% - 560px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-image: url("../../public/fondo.jpg");
+}
+.login100-form-title {
+    width: 100%;
+    display: block;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+}
+.p-b-43 {
+    padding-bottom: 43px;
+}
+.p-t-46 {
+    padding-top: 46px;
+}
+
+.login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: #6675df;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+button {
+    outline: none!important;
+    border: none;
+    background: 0 0;
+}
+
+.txt2 {
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    line-height: 1.4;
+    color: #999;
+}

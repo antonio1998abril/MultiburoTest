@@ -1,0 +1,29 @@
+.tablecard{
+    overflow:hidden;
+    padding: 10px;
+    /* margin:250px 0;   */
+    font-family: 'Ubuntu';
+    background-color: white;
+     transition: all 0.5s ease; 
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0 0 15px rgb(224, 224, 224);
+    
+}
+
+.tablecard:hover{
+     box-shadow: 0 0 15px rgb(209, 209, 209); 
+
+    }
+.headerTable{
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(65, 65, 65);
+    background-color: #ffc14eef;
+}
+
+
+@media (max-width: 280px) {
+    .tablecard{
+        margin-left: 10px;
+       
+        }
+    }   

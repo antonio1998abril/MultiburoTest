@@ -1,0 +1,42 @@
+.buttonCard {
+    border: none;
+    border-radius: 2px;
+    float: right;
+     display: flex; 
+    justify-content: center; 
+     align-items: center;  
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    text-decoration:none; 
+    background-color:#1c86dd ;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    outline: none;
+    background-position: center;
+}
+
+.iconSee {
+    margin-top: -10px;
+    height: 20px;
+    width: 21px;
+    }
+.textIndex {
+    margin-left: 10px;
+    }
+
+ .formU {
+    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+
+@media (max-width: 800px) {
+    .formU {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+}
